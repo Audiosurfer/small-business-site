@@ -1,0 +1,173 @@
+/* CSS for small business page */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+header h1, label, li, div {
+    margin-left: 2%;
+}
+
+body {
+    background: #2a2828;
+    height: 100%;
+}
+
+#content {
+    margin-left: 5%;
+    width: 1200px;
+    height: 100%;
+    background: white;      
+}
+
+h1, label, p {
+    font-family: Open Sans, Arial;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+ul li {
+    display: inline-block;
+    font-family: Open Sans;
+}
+
+#maincaption a {
+    margin:0 auto;
+    font-family: Open Sans;
+    font-weight: 100;
+}
+    
+a {
+    text-decoration: none;
+    font-family: Open Sans;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#newreleases a img:hover {
+    border: 3px solid #4177b7;
+}
+
+#mainimageplace {
+    height: 650px;
+    width: 650px;
+    background: url(fkatwigsalbumcover.png);
+    background-size: 650px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+#maincaption {
+    width: 650px;
+    height: 75px;
+    position: relative;
+    margin-top: 425px;
+    
+}
+
+
+#maincaption p {
+    padding-top: 150px;
+    color: white;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+#newreleases {
+    position: relative;
+    left: 685px;
+    bottom: 503px;
+    width: 200px;
+    height: 100%;
+}
+
+#newreleases2 {
+    position: relative;
+    left: 240px;
+    bottom: 657px;
+    width: 200px;
+}
+
+#release1 {
+    margin-bottom: 10px;
+}
+
+#release2 {
+    margin-bottom: 10px;
+}
+
+#release4 {
+    margin-bottom: 10px;
+}
+
+#release5 {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-bottom: 8px;
+}
+
+#socialmedia {
+    margin-right: 10px;
+    margin-bottom: 10px;
