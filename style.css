@@ -51,7 +51,7 @@ table {
 
 /* End of CSS Reset */
 
-header h1, label, li, div {
+header h1, li {
     margin-left: 2%;
 }
 
@@ -61,13 +61,14 @@ body {
 }
 
 #content {
-    margin-left: 5%;
+    margin:0 auto;
     width: 1200px;
     height: 100%;
-    background: white;      
+    background: white;
+    overflow: hidden;
 }
 
-h1, label, p {
+h1, p {
     font-family: Open Sans, Arial;
 }
 
@@ -77,20 +78,9 @@ h1 {
     margin-bottom: 10px;
 }
 
-label {
-    font-size: 30px;
-    font-weight: 400;
-}
-
 ul li {
     display: inline-block;
     font-family: Open Sans;
-}
-
-#maincaption a {
-    margin:0 auto;
-    font-family: Open Sans;
-    font-weight: 100;
 }
     
 a {
@@ -106,68 +96,49 @@ a:hover {
     border: 3px solid #4177b7;
 }
 
+#newreleases img {
+    width: 209px;
+    height: 209px;
+}
+
 #mainimageplace {
-    height: 650px;
-    width: 650px;
-    background: url(fkatwigsalbumcover.png);
-    background-size: 650px;
-    border: 1px solid black;
-    margin-top: 20px;
-    margin-bottom: 20px;   
+    height: 630px;
+    width: 630px;
+    border: 1px solid black;  
+    float: left;
+    margin-left: 2%;
 }
 
-#maincaption {
-    width: 650px;
-    height: 75px;
-    position: relative;
-    margin-top: 425px;
-    
-}
-
-
-#maincaption p {
-    padding-top: 150px;
-    color: white;
-    font-size: 26px;
-    font-weight: 100;
-    margin: 0 auto;
+#mainimg {
+    height: 630px;
+    width: 630px;
 }
 
 #newreleases {
-    position: relative;
-    left: 685px;
-    bottom: 503px;
-    width: 200px;
-    height: 100%;
-}
-
-#newreleases2 {
-    position: relative;
-    left: 240px;
-    bottom: 657px;
-    width: 200px;
-}
-
-#release1 {
-    margin-bottom: 10px;
-}
-
-#release2 {
-    margin-bottom: 10px;
-}
-
-#release4 {
-    margin-bottom: 10px;
-}
-
-#release5 {
-    margin-bottom: 10px;
+    width: 500px;
+    height: 630px;
+    float: right;
 }
 
 footer {
-    margin-bottom: 8px;
+    clear: both;
+}
+
+footer ul {
+    padding-bottom: 5px;
+}
+
+#maincaption {
+    position: relative;
+    bottom: 8%;
+    left: 2%;
+    font-size: 26px;
+    font-weight: 100;
+    color: white;
 }
 
 #socialmedia {
-    margin-right: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 2%;
+}
